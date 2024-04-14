@@ -1,0 +1,114 @@
+/* body{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6)), url('mediamodifier-I3HPUolh5hA-unsplash.jpg');
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+} */
+body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), #3f736d);
+    
+}
+.maindiv{
+    height:435px;
+    padding:2px;
+    width:40vw;
+    border:5px solid #3f736d;
+    margin-top:80px;
+    
+}
+.f{
+    display: flex;
+    justify-content:center;
+}
+.hd{
+    height:80px;
+    width:39.9vw;
+    border:1px solid #3f736d;
+    background-color: #3f736d;  
+    color: white;
+}
+.hd h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+.show{
+    height:50px;
+    width:39.9vw;
+    border:1px solid #3f736d;
+}
+.show p{
+    color:#3f736d;  
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+.buttons{
+    display: flex;
+    width:26.6vw;
+}
+.buttons button{
+    cursor: pointer;
+    height:60px;
+    width:39.9vw; 
+}
+.button2{
+    display: flex;
+    /* height:50%; */
+    width:26.6vw;
+    /* border:1px solid #3f736d; */
+}
+.button2 button{
+    cursor: pointer;
+    height:60px;
+    width:26.6vw; 
+}
+.button3{
+    display: flex;
+    /* height:50%; */
+    width:26.6vw;
+    /* border:1px solid #3f736d; */
+}
+.button3 button{
+    cursor: pointer;
+    height:60px;
+    width:26.6vw; 
+}
+.button4{
+    display: flex;
+    /* height:50%; */
+    width:26.6vw;
+    /* border:1px solid #3f736d; */
+}
+.button4 button{
+    cursor: pointer;
+    height:60px;
+    width:26.6vw; 
+}
+.parent{
+    display: flex;
+}
+.mom{
+    cursor: pointer;
+    height:60px;
+    width:13.4vw; 
+}
+.class2{
+    display: flex;
+}
+button{
+    background-color: #3f736d;
+    color: white;
+    border:2px solid white;
+}
+.show{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #3f736d;
+}
+/* .shift{
+    text-align: end;
+    height:50px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+} */

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<div class="f">
+    <div class="maindiv">
+<div class="hd">
+    <h1>Calculator</h1>
+</div>
+<div class="show" id="sh">
+</div>
+<div class="parent">
+    <div>
+<div class="buttons">
+    <!-- 1 -->
+    <button onclick="c()">Clear</button>
+    <button onclick="e()">Erase</button>
+    
+</div>
+<div class="button2">
+    <button onclick="get(7)" >7</button>
+    <button onclick="get(8)">8</button>
+    <button onclick="get(9)">9</button>
+</div>
+<div class="button3">
+    <button onclick="get(4)">4</button>
+    <button onclick="get(5)">5</button>
+    <button onclick="get(6)">6</button>
+</div>
+<div class="button4">
+    <button onclick="get(1)">1</button>
+    <button onclick="get(2)">2</button>
+    <button onclick="get(3)">3</button>
+</div>
+</div>
+<div>
+    <button class="mom" id="res" onclick="get('/')">/</button> 
+    <button class="mom" onclick="get('*')">*</button> 
+    <button class="mom" onclick="get('+')">+</button> 
+    <button class="mom" onclick="get('-')">-</button> 
+</div>
+</div>
+<div class="class2">
+    <button class="mom" onclick="get(0)">0</button> 
+    <button class="mom" onclick="get('.')">.</button> 
+    <button class="mom" onclick="operations()">=</button>   
+</div>
+    </div>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
