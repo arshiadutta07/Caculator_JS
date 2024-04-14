@@ -8,9 +8,7 @@ function get(n)
         if(getVal[i]=='+'|| getVal[i]=='-'|| getVal[i]=='*'|| getVal[i]=='/')
         {
                 b++;
-        }
-        
-        
+        }     
     }
     if(b>1)
     {
