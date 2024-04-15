@@ -7,7 +7,7 @@ function get(n)
     for (let i = 0; i < getVal.length; i++) {
         if(getVal[i]=='+'|| getVal[i]=='-'|| getVal[i]=='*'|| getVal[i]=='/')
         {
-                b++; // Post Incrementing value
+                b++;
         }     
     }
     if(b>1)
